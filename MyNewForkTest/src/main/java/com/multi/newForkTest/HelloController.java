@@ -11,4 +11,9 @@ public class HelloController {
 		mv.setViewName("NewFile");
 		return mv;
 	}
+	
+	@RequestMapping("/main")
+	public String main() {
+		return "main";
+	}
 }
